@@ -14,7 +14,7 @@ int main(void)
 
     /* USART1 重映射：TX -> PB6，RX -> PB7 */
     GPIO_PinRemapConfig(GPIO_Remap_USART1, ENABLE);
-
+//
 //    /* PB6：复用推挽输出 */
 ////    GPIO_StructInit(&GPIO_InitStruct);
 //    GPIO_InitStruct.GPIO_Pin = GPIO_Pin_6;
